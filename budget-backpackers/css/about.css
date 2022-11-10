@@ -4,6 +4,21 @@
 }
 body{
     background: #172A3A;
+    color: #69D1C5;
+}
+#navbarNav a{
+    color: #69D1C5;
+}
+#nav-title{
+    color: #69D1C5;
+}
+.navbar-nav li{
+    font-size: 20px;
+    transition: font-size 0.5s;
+}
+.navbar-nav li:hover{
+    /* text-decoration: underline 2px; */
+    font-size: 22px;
 }
 .header{
     height: 100%;
