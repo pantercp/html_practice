@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #172A3A;
+    color: #69D1C5;
+}
+#navbarNav a{
+    color: #69D1C5;
+}
+#nav-title{
+    color: #69D1C5;
+}
+.navbar-nav li{
+    font-size: 20px;
+    transition: font-size 0.5s;
+}
+.navbar-nav li:hover{
+    /* text-decoration: underline 2px; */
+    font-size: 22px;
+}
+.header{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: none;
+}
+
+
+@media only screen and (max-width: 1500px){
+    #header{
+        background-image: url(../images/phone-background.png);
+    }
+}
